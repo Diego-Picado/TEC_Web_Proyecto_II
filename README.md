@@ -1,2 +1,1 @@
-# TEC_Web_Proyecto_II
-Repositorio que contiene la informacion utilizada para construir el proyecto de Programacion Web II
+Link al proyecto: https://diego-picado.github.io/TEC_Web_Proyecto_II/
