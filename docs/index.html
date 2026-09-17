@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>One Piece Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Start Screen -->
+  <div id="start-screen">
+    <h1>Welcome to the One Piece Quiz!</h1>
+    <button id="play-button">Play</button>
+    <button id="edit-button">Edit Questions</button>
+  </div>
+
+  <!-- Trivia Screen -->
+  <div id="trivia-screen" class="hidden">
+    <div id="question-section"></div>
+    <button id="next-button">Next</button>
+  </div>
+
+  <!-- Results Screen -->
+  <div id="result-screen" class="hidden">
+    <h2 id="mainScore-text"></h2>
+    <button id="restart">Restart</button>
+    <button id="restart-button">Back to Menu</button>
+  </div>
+
+  <!-- Edit Screen -->
+  <div id="edit-screen" class="hidden">
+    <h2>Edit Questions</h2>
+    <div id="edit-section"></div>
+    <button id="add-question-button">Add Question</button>
+    <button id="back-button">Back to Menu</button>
+  </div>
+
+  <script src="code.js"></script>
+</body>
+</html>
